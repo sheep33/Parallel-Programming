@@ -1,11 +1,17 @@
 ﻿  cpu.cpp
-C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\CPU\cpu.cpp(83,25): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\CPU\cpu.cpp(83,21): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\CPU\cpu.cpp(95,25): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\CPU\cpu.cpp(95,21): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\CPU\cpu.cpp(156,27): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\CPU\cpu.cpp(192,12): warning C4477: 'printf' : 서식 문자열 '%u'에 'unsigned int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64'입니다.
-C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\CPU\cpu.cpp(192,12): message : 서식 문자열에서 '%llu'을(를) 사용하는 것이 좋습니다.
-C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\CPU\cpu.cpp(192,12): message : 서식 문자열에서 '%Iu'을(를) 사용하는 것이 좋습니다.
-C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\CPU\cpu.cpp(192,12): message : 서식 문자열에서 '%I64u'을(를) 사용하는 것이 좋습니다.
-  CPU.vcxproj -> C:\Users\user\Desktop\수업\과제\2020-1\김채원_박주은_병렬기말\x64\Debug\CPU.exe
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(97): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(109): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(144): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(167): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(226): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(231): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(238): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(243): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(250): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(251): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(255): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(257): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(261): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\multi\desktop\nemo\cpu\cpu.cpp(263): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CPU.vcxproj -> C:\Users\multi\Desktop\Nemo\x64\Debug\CPU.exe
+  CPU.vcxproj -> C:\Users\multi\Desktop\Nemo\x64\Debug\CPU.pdb (Partial PDB)
