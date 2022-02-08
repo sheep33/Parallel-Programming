@@ -1,0 +1,91 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\multi\Desktop\CudaTamplate\GPU>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc140.pdb /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "C:\Users\multi\Desktop\CudaTamplate\GPU\kernel.cu" 
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(1431): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  kernel.cu
+C:/Users/multi/Desktop/CudaTamplate/GPU/kernel.cu(68): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+     C:\Users\multi\Desktop\CudaTamplate\x64\Release\GPU.lib 라이브러리 및 C:\Users\multi\Desktop\CudaTamplate\x64\Release\GPU.exp 개체를 생성하고 있습니다.
+  LINK : /LTCG를 지정했지만 코드를 생성할 필요가 없습니다. 명령줄에서 /LTCG를 제거하면 링커 성능이 향상됩니다.
+  GPU.vcxproj -> C:\Users\multi\Desktop\CudaTamplate\x64\Release\GPU.exe
+  GPU.vcxproj -> C:\Users\multi\Desktop\CudaTamplate\x64\Release\GPU.pdb (Full PDB)
